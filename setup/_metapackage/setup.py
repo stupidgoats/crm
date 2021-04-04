@@ -9,6 +9,7 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo13-addon-crm_claim',
+        'odoo13-addon-crm_claim_code',
         'odoo13-addon-crm_claim_type',
         'odoo13-addon-crm_industry',
         'odoo13-addon-crm_lead_code',
@@ -20,6 +21,9 @@ setuptools.setup(
         'odoo13-addon-crm_phonecall',
         'odoo13-addon-crm_phonecall_planner',
         'odoo13-addon-crm_phonecall_summary_predefined',
+        'odoo13-addon-crm_project',
+        'odoo13-addon-crm_sale_secondary_salesperson',
+        'odoo13-addon-crm_secondary_salesperson',
         'odoo13-addon-crm_stage_probability',
         'odoo13-addon-crm_stage_type',
     ],
